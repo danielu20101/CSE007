@@ -15,13 +15,12 @@ public class grades {
         Scanner scnr = new Scanner(System.in);
 
         while(count < 1){ //Input validation for the number of students in CSE 007
-            System.out.println("Please enter a number representing the number of students enrolled in CSE 007");
             if (count == 0){
+            System.out.println("Please enter a number representing the number of students enrolled in CSE 007");
             numberofintegers = scnr.nextInt();
             if (scnr.hasNextInt() == true){
                 if(numberofintegers < 150 && numberofintegers > 5){
-                    count+=1;
-                    break;
+                    count = 1;
                 }else{
                     System.out.println("Please enter a value in the range 5-150");
                     }
@@ -55,12 +54,12 @@ public class grades {
     System.out.println("Elements of array sorted in descending order: "); 
     System.out.print(Arrays.toString(array));//prints the array in descending order
 
-    double total = 0;
+        double total = 0;
         for(int i=0; i < array.length; i++){
         total = total + array[i];
     }
         double average = total / array.length;
-         System.out.println("The average grade for the class is: " + //prints the average of the grades to 3 decimal spaces
+        System.out.println("The average grade for the class is: " + //prints the average of the grades to 3 decimal spaces
         String.format("%.3f", average)); 
 
         System.out.println("Please enter a number representing the grade/grade range you would like to search for");

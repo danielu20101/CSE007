@@ -5,7 +5,7 @@ CSE 7 HW2
 a base-10 numbering system. Binary is base-2
 2. Binary is an important numbering system because computers use it to convert 
 code into something it understands.
-3. Hexadecimal is another numbering system used most of the time to represent colors. I.e, 0000FF->BLUE
+3. Hexadecimal is another numbering system used most of the time to represent colors. i.e, 0000FF->BLUE
 Octal, another numbering system, is base is 8 and it uses numbers from 0 to 7 to represent numbers*/
 
 import java.util.Scanner;
